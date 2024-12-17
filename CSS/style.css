@@ -12,7 +12,7 @@ h1 {
 
 body > p {
     justify-content: center;
-    margin-top: 50px;
+    margin: 50px;
 }
 
 .d-flex {
@@ -52,7 +52,7 @@ h3 {
     font-weight: 700;
 }
 
-.imput_container {
+.input_container {
     justify-content: center;
 }
 
@@ -67,4 +67,35 @@ h1 {
 
 .info_container > p:last-child {
     color: #6ECBF2;
+}
+
+
+
+
+@media screen and (max-width: 1600px) {
+    .card {
+      width: 35%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .card {
+      width: 70%;
+    }
+
+    .input_container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+      width: 100%;
+    }
 }
