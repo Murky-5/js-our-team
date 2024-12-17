@@ -16,7 +16,7 @@
     <h1 class="d-flex">Meet our Team</h1>
     <p class="d-flex">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores omnis qui sit odio reiciendis aut veniam, incidunt porro est beatae. Fugit corporis cupiditate magni modi alias distinctio ratione quos repellendus.
     </p>
-    <form>
+    <form id="form">
         <div class="card_container d-flex">
             <div class="card d-flex">
                 <div class="img_container">
@@ -28,6 +28,13 @@
                     <p>marcobianchi@team.com</p>
                 </div>
             </div>
+        </div>
+        <div class="d-flex imput_container">
+            <input type="text" class="info" placeholder="Nome e Cognome" required>
+            <input type="text" class="info" placeholder="Ruolo / Titolo" required>
+            <input type="text" class="info" placeholder="Email" required>
+            <input type="file" class="info" placeholder="Aggiungi un immagine *opzionale" required>
+            <button type="submit">invia</button>
         </div>
     </form>
     <script src="./JS/script.js"></script>
